@@ -151,45 +151,10 @@ adb shell pm install-existing --user 0 <package_name>
 
 ---
 
-## Troubleshooting & Common Fixes
+## Troubleshooting
 
 ### Wallpapers broken
 
 ```shell
-adb shell pm install-existing --user 0 com.android.wallpaper.livepicker
-adb shell pm install-existing --user 0 com.android.wallpapercropper
 adb shell pm install-existing --user 0 com.miui.miwallpaper
 ```
-
-### Android Auto not working
-
-```shell
-adb shell pm install-existing --user 0 com.google.android.projection.gearhead
-```
-
-### Bluetooth issues
-
-```shell
-adb shell pm install-existing --user 0 com.miui.miservice
-adb shell pm install-existing --user 0 com.xiaomi.bluetooth
-```
-
-### OTA updates not working
-
-```shell
-adb shell pm install-existing --user 0 com.xiaomi.xmsf
-adb shell pm install-existing --user 0 com.xiaomi.xmsfkeeper
-adb shell pm install-existing --user 0 com.miui.cloudservice
-adb shell pm install-existing --user 0 com.miui.cloudservice.sysbase
-adb shell pm install-existing --user 0 com.xiaomi.micloud.sdk
-adb shell pm install-existing --user 0 com.miui.daemon
-adb shell pm install-existing --user 0 com.xiaomi.simactivate.service
-```
-
-Then reboot and set your region: `Settings > Additional settings > Region`.
-
----
-
-## License
-
-[MIT](LICENSE)
