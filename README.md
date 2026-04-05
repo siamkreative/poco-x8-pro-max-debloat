@@ -1,6 +1,6 @@
 # POCO X8 Pro Max — Personal Debloat List
 
-A personal list of [ADB](https://developer.android.com/studio/command-line/adb) commands to remove bloatware from my POCO X8 Pro Max running HyperOS.
+A personal list of [ADB](https://developer.android.com/studio/command-line/adb) commands to remove bloatware from my POCO X8 Pro Max running HyperOS. Based on [matthieu-pierson/debloat-hyperos-adb](https://github.com/matthieu-pierson/debloat-hyperos-adb).
 
 > **USE AT YOUR OWN RISK.** All removals use `pm uninstall -k --user 0`, which is reversible per-user and keeps app data intact. Still, review the list before running it and back up anything important.
 
